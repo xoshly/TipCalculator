@@ -1,0 +1,131 @@
+body {
+    background: #FFFFFF;
+    background: -moz-radial-gradient(center, #FFFFFF 0%, #0A5E15 100%);
+    background: -webkit-radial-gradient(center, #FFFFFF 0%, #0A5E15 100%);
+    background: radial-gradient(ellipse at center, #FFFFFF 0%, #0A5E15 100%);
+    background-repeat: round;
+    color: black;
+    text-align: center;
+}
+
+#container {
+    height: 600px;
+    width: 50%;
+    margin: 100px auto;
+    background: white;
+    box-shadow: 0 0 3px black;
+    border-radius: 35px;
+    align-items: center;
+}
+
+h1 {
+    
+    color: black;
+    margin: 0;
+    padding: 10px 100px;
+    font-size: 36px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+p {
+    padding-left: 20px;
+   
+}
+
+form {
+    background: white;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+form input[type = "text"] {
+    width: 90px;
+}
+
+input {
+    padding-left: 20px;
+}
+
+#billamt {
+    font-size: 14px;
+    /*color: #2980b9;*/
+    color: black;
+    background-color: #f7f7f7;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+  }
+  
+  #billamt:focus {
+    background: #fff;
+    border: 3px solid #2980b9;
+    outline: none;
+  }
+  
+  #peopleamt {
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+    color:black;
+    background-color: #f7f7f7;
+    font-size: 14px;
+  }
+  
+  .dollarSign {
+    display: inline;
+  }
+  
+  #servicequal {
+    padding: 13px 13px 20px 20px;
+    margin-left: 20px;
+    font-size: 25px;
+  }
+  
+  button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: green;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+  }
+  
+  button:hover {
+    background: #104e1b;
+    border-bottom-color: #111;
+  }
+  
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  #totalTip {
+    font-size: 40px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  #totalTip:before {
+    content: "Tip amount";
+    font-size: 40px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  }
+  
+  #totalTip sup {
+    font-size: 40px;
+    top: -18px;
+  }
+  
+  #totalTip small {
+    font-size: 40px;
+    font-weight: bold;
+    display: block;
+  }
